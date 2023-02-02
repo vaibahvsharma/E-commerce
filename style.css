@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Noto+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Noto+Sans:ital,wght@1,300&display=swap');
+:root{
+    --main-bg-color: brown;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    
+    background: var(--main-bg-color);
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+body{
+    background-color:bisque
+}
+nav{
+    display: flex;
+    height: 80px;
+    flex-direction: column;
+}
+.logi{
+    display: flex;
+    align-items: center;
+}
+
+.logi img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul{
+    /* height: 58px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: larger;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+   /* color: wheat; 
+     text-decoration: none; */
+     font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 30vw;
+    height: 45px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+.search button{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+
+}
+.container{
+    min-height: calc(41vh);
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+    overflow: hidden;
+} 
+
+.slider img{
+    height: 40vh;
+    width: 90vw;
+    overflow: hidden;
+}
+.card{
+    max-width: 91vw;
+    margin: 8px auto;
+    background-color: aliceblue;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.card-item1{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.card h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Noto Sans', sans-serif;
+}
+.card-item1 .lines{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: aqua;
+    font-family: 'Noto Sans', sans-serif;
+}
+.text-center{
+    text-align: center;
+}
